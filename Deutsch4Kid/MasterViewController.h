@@ -7,13 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+
 
 @class DetailViewController;
 
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+@property ( strong, nonatomic) NSArray *spisak;
+@property(strong, nonatomic) NSMutableArray *spisakAlata;
+@property(strong, nonatomic) NSMutableArray *spisakVoca;
+@property(strong, nonatomic) NSMutableArray *spisakRazno;
+@property(strong, nonatomic) NSMutableArray *spisakZivotinja;
+@property(strong, nonatomic) NSMutableArray *spisakBrojeva;
+@property(strong, nonatomic) NSMutableArray *audioAlati;
+@property(strong, nonatomic) NSMutableArray *audioVoce;
+@property(strong, nonatomic) NSMutableArray *audioRazno;
+@property(strong, nonatomic) NSMutableArray *audioBrojevi;
 
+
+@property (readwrite)	CFURLRef		soundFileURLRef;
+@property (readonly)	SystemSoundID	soundFileObject;
 
 @end
 
