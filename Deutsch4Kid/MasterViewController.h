@@ -24,7 +24,13 @@
 @property(strong, nonatomic) NSMutableArray *audioAlati;
 @property(strong, nonatomic) NSMutableArray *audioVoce;
 @property(strong, nonatomic) NSMutableArray *audioRazno;
+@property(strong, nonatomic) NSMutableArray *audioZivotinje;
 @property(strong, nonatomic) NSMutableArray *audioBrojevi;
+@property(strong, nonatomic) NSMutableArray *tekstAlati;
+@property(strong, nonatomic) NSMutableArray *tekstVoce;
+@property(strong, nonatomic) NSMutableArray *tekstRazno;
+@property(strong, nonatomic) NSMutableArray *tekstZivotinje;
+@property(strong, nonatomic) NSMutableArray *tekstBrojevi;
 
 
 @property (readwrite)	CFURLRef		soundFileURLRef;

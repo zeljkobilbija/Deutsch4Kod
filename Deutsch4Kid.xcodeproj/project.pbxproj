@@ -14,6 +14,7 @@
 		027524BC1ED0D4030088598E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027524BA1ED0D4030088598E /* Main.storyboard */; };
 		027524BE1ED0D4030088598E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 027524BD1ED0D4030088598E /* Assets.xcassets */; };
 		027524C11ED0D4030088598E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027524BF1ED0D4030088598E /* LaunchScreen.storyboard */; };
+		02BE09ED1ED21B1800483E08 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02BE09EF1ED21B1800483E08 /* Localizable.strings */; };
 		02C7E3C01ED1EB7B006BABFE /* busilica.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 02C7E3BF1ED1EB7B006BABFE /* busilica.m4a */; };
 		02F79D041ED1778E00B81034 /* alat.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F79CE81ED1778E00B81034 /* alat.png */; };
 		02F79D051ED1778E00B81034 /* busilica.png in Resources */ = {isa = PBXBuildFile; fileRef = 02F79CE91ED1778E00B81034 /* busilica.png */; };
@@ -153,7 +154,14 @@
 		027524BD1ED0D4030088598E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		027524C01ED0D4030088598E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		027524C21ED0D4040088598E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BE09E91ED21A6700483E08 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		02BE09EA1ED21A6700483E08 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		02BE09EE1ED21B1800483E08 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		02BE09F01ED21C8700483E08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		02C7E3BF1ED1EB7B006BABFE /* busilica.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = busilica.m4a; sourceTree = "<group>"; };
+		02E99E8F1ED2307F00659D42 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/Main.strings"; sourceTree = "<group>"; };
+		02E99E901ED2307F00659D42 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		02E99E911ED2307F00659D42 /* sr-Latn */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sr-Latn"; path = "sr-Latn.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		02F79CE81ED1778E00B81034 /* alat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alat.png; sourceTree = "<group>"; };
 		02F79CE91ED1778E00B81034 /* busilica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busilica.png; sourceTree = "<group>"; };
 		02F79CEA1ED1778E00B81034 /* cekic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cekic.png; sourceTree = "<group>"; };
@@ -313,6 +321,7 @@
 		027524AD1ED0D4030088598E /* Deutsch4Kid */ = {
 			isa = PBXGroup;
 			children = (
+				02BE09EF1ED21B1800483E08 /* Localizable.strings */,
 				02F79E401ED1B84500B81034 /* Deutsch4Kid.entitlements */,
 				027524B11ED0D4030088598E /* AppDelegate.h */,
 				027524B21ED0D4030088598E /* AppDelegate.m */,
@@ -565,6 +574,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"sr-Latn",
 			);
 			mainGroup = 027524A21ED0D4030088598E;
 			productRefGroup = 027524AC1ED0D4030088598E /* Products */;
@@ -676,6 +686,7 @@
 				02F79D991ED18B4300B81034 /* zmija.png in Resources */,
 				02F79D961ED18B4300B81034 /* ovca.png in Resources */,
 				02F79D601ED1784000B81034 /* kapa.png in Resources */,
+				02BE09ED1ED21B1800483E08 /* Localizable.strings in Resources */,
 				02F79D5B1ED1784000B81034 /* prst.png in Resources */,
 				02F79E211ED19BFB00B81034 /* 15.png in Resources */,
 				02F79D581ED1784000B81034 /* saka.png in Resources */,
@@ -731,6 +742,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				027524BB1ED0D4030088598E /* Base */,
+				02BE09E91ED21A6700483E08 /* it */,
+				02E99E8F1ED2307F00659D42 /* sr-Latn */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -739,8 +752,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				027524C01ED0D4030088598E /* Base */,
+				02BE09EA1ED21A6700483E08 /* it */,
+				02E99E901ED2307F00659D42 /* sr-Latn */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02BE09EF1ED21B1800483E08 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02BE09EE1ED21B1800483E08 /* it */,
+				02BE09F01ED21C8700483E08 /* en */,
+				02E99E911ED2307F00659D42 /* sr-Latn */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -750,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -799,6 +825,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

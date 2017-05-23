@@ -15,6 +15,12 @@
 @property (strong, nonatomic) NSString *detailItem;
 @property (strong, nonatomic) NSMutableArray *spisakItem;
 @property (strong, nonatomic) NSMutableArray *spisakAudioTonova;
+@property (strong, nonatomic) NSMutableArray *spisakTekstova;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *deutschTextLabel;
+@property (strong, nonatomic)   NSString *deutschLabelNaslov;
+
 @property ( strong, nonatomic) NSMutableArray *muta;
 @property ( strong, nonatomic) NSMutableArray *mutaDva;
 

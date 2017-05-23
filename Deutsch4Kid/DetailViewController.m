@@ -53,6 +53,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.muta = [NSMutableArray arrayWithCapacity:50];
+    [self.deutschTextLabel setText:self.deutschLabelNaslov];
 //    
 //    
 //    for (int i = 0; i < [self.spisakAudioTonova count]; i++) {
@@ -131,6 +132,8 @@
 - (IBAction)klikni:(UIButton *)sender {
     
     
+    
+    //*********************AUDIO
     NSString *str = [NSString stringWithString:[self.spisakAudioTonova objectAtIndex: sender.tag ]];
     self.aSound   = [[NSBundle mainBundle] URLForResource: str
                                             withExtension: @"m4a"];
@@ -142,12 +145,22 @@
                                     &_soundFileObject
                                     );
 
-    //self.soundFileURLRef = (__bridge CFURLRef) self.aSound;
+    AudioServicesPlaySystemSound (_soundFileObject);
 
+    //***************************************
     
-        AudioServicesPlaySystemSound (_soundFileObject);
-
-        NSLog(@"%@",self.soundFileURLRef);
+    //*********************+TEKST LABEL********************
+    NSString *upercase = [self.spisakTekstova objectAtIndex:sender.tag];
+    
+    [self.deutschTextLabel setText:upercase.uppercaseString];
+    
+   
+    
+    
+    
+    
+    
+       // NSLog(@"%@",self.soundFileURLRef);
    
     
     
